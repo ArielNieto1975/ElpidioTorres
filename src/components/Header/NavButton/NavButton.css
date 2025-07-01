@@ -1,0 +1,27 @@
+
+
+.navButton {
+    width: auto;
+    min-width: 80px;
+    padding: 10px;
+    margin: 10px 5px 0 5px;
+    height: 15px;
+    list-style: none;
+    background-color: #f37805;
+    border: 2px solid #1c19f6;
+    color: #1c19f6;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButton:hover {
+    background-color: #1c19f6;
+    /* color: #f37805; */
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(19, 4, 156);
+}

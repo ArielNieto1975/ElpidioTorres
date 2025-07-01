@@ -1,0 +1,33 @@
+.portada{
+    width: 100vw;
+    
+}
+
+.mvv{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+.mvvBox{
+    width: 33%;
+    padding: 3%;
+    padding-top: 0;
+    margin-top: 3%;
+    text-align: justify;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    padding-inline-start: 10px;
+}
+.mvvBox h2{
+    background-color: #1c19f6;
+    background-image: linear-gradient(to right, #1c19f6, #706efc );
+    color: #f37805;
+    padding: 0 10px;
+}
+p{
+    padding: 0 10px;
+}
