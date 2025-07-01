@@ -13,7 +13,7 @@ const Footer = () => {
           {" "}
           <img src="./an.png" alt="Logo Ariel NIeto" width="25px" className="LogoAN" />
           {" "}
-          Ariel Nieto
+          {/* Ariel Nieto */}
         </p>
       </div>
 
