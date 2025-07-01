@@ -6,9 +6,9 @@ import "./cards.css";
 // ]
 
 const autoridades = [
-  { nombre: "Manuel Picasso", cargo: "Director", foto:"/img/imagen2.jpg" },
+  { nombre: "Manuel Picasso", cargo: "Director", foto:"/img/picasso.png" },
   { nombre: "Serio Perez LLanos", cargo: "Sub-Director", foto:"/img/imagen3.png" },
-  { nombre: "Ariel Nieto", cargo:"Secretario Técnico",  foto:"/img/imagen1.png" },
+  { nombre: "Ariel Nieto", cargo:"Secretario Técnico",  foto:"/img/nieto.jpg" },
 ];
 
 function Card () {
