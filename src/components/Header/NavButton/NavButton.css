@@ -25,3 +25,9 @@
     cursor: pointer;
     box-shadow: 5px 5px 10px rgb(19, 4, 156);
 }
+
+@media (max-width: 500px){
+    .navButton{
+        width: 90vw;
+    }
+}

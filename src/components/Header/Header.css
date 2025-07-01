@@ -9,7 +9,29 @@
     top: 0;
     left: 0;
     width: 100%;
+    background-color: #f37805;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 2;
 }
 .nav{
     display: flex;
+    margin: 0;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px){
+    .App-header{
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px){
+    .nav{
+        flex-direction: column;
+        padding: 0;
+    }
+    .App-header{
+        width: 100vw;
+    }    
 }

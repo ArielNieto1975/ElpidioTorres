@@ -31,3 +31,11 @@ ul{
 p{
     padding: 0 10px;
 }
+@media (max-width: 768px){
+    .mvv{
+        flex-direction: column;
+    }
+    .mvvBox{
+    width: 100%;
+    }
+}
