@@ -1,5 +1,5 @@
 .card { 
-    width: 45%;
+    width: 35vw;
     height: auto;
     display: flex;
     align-items: center;
@@ -20,4 +20,22 @@
 .desc{
     margin: 0;
     font-weight: bold;
+}
+@media (max-width: 800px){
+    .card{
+    width: 30vw;
+    }
+}
+@media (max-width: 600px){
+    .card{
+    width: 60vw;
+    }
+}
+@media (max-width: 500px){
+    .card{
+    margin-top: 30px;
+    }
+    .autoridades{
+        height: 200px;
+    }
 }
