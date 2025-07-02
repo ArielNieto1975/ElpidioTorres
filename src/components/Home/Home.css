@@ -1,6 +1,5 @@
 .portada{
-    width: 100vw;
-    
+    width: 100vw;    
 }
 
 .mvv{
@@ -37,5 +36,20 @@ p{
     }
     .mvvBox{
     width: 100%;
+    margin-top: 20px;
+    }
+    .portada{
+    margin-top: 50px;  
+    }
+}
+@media (max-width: 650px){
+    .mvvBox{
+    margin-top: 20px;
+    }
+}
+@media (max-width: 500px){
+    .portada{
+    margin-top: 0px; 
+    height: 200px; 
     }
 }
