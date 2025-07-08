@@ -4,7 +4,8 @@
   background-position: center;
   width: 100%;
   height: 100%;
-  margin-top: 12.5vmin;
+  /* margin-top: 12.5vmin; */
+  margin-top: 40px;
   padding: 5px 0 50px;
 }
 body {
@@ -102,8 +103,8 @@ textarea {
     max-width: 98vw;
   }
 }
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .contact{
-    margin-top: 230px;
+    margin-top: 40px;
   }
-}
+} */

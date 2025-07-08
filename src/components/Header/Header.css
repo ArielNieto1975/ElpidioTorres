@@ -1,10 +1,9 @@
-.App-logo {
+ .App-logo {
     height: 12vmin;
     pointer-events: none;
-    /* filter: drop-shadow( 0px 0px 5px black ); */
 
 }
-.App-header{
+/*.App-header{
     position: fixed;
     top: 0;
     left: 0;
@@ -34,4 +33,90 @@
     .App-header{
         width: 100vw;
     }    
+} */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-evenly;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: #f37805;
+    /* position: relative; */
+    height: 40px;
+    width: 100vw;
+}
+
+/* Botón hamburguesa */
+.hamburguesa {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  padding: 0;
+}
+.hamburguesa span {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: #fff;
+  border-radius: 2px;
+  margin: 3px 0;
+}
+/* .hamburguesa.abierto span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+.hamburguesa.abierto span:nth-child(2) {
+  opacity: 0;
+}
+.hamburguesa.abierto span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+} */
+
+/* Menú de navegación */
+.menu {
+  display: flex;
+  gap: 8px;
+  /* margin-left: auto; */
+  z-index: 50;
+}
+@media (max-width: 768px) {
+  .hamburguesa {
+    display: flex;
+    position: absolute;
+    left: 80%;
+  }
+  .menu {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    flex-direction: column;
+    background: #ffffff;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: none;
+  }
+  .menu.visible {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu {
+    right: 0px; 
+    padding: 0;
+    background: #ffffff;
+    width:100%;
+  }
+
 }
