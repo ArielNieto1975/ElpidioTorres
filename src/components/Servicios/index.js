@@ -38,7 +38,7 @@ const servicios = [
   },
   {
     id: 7,
-    nombre: "Medicina Transfucional",
+    nombre: "Med. Transfucional",
     descripcion: "Descripción del servicio 7",
   },
   { id: 8, nombre: "Laboratorio", descripcion: "Descripción del servicio 8" },
