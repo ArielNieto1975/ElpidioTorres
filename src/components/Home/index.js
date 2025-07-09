@@ -5,7 +5,10 @@ function Home(){
         window.scrollTo(0, 0);
     }, []);
     return <div>
-    <img src="/img/ElpidioTorres1.jpg" className="portada"  alt="Portada"/>
+    <section className="menuPortada">
+        <img src="/img/ElpidioTorres1.jpg" className="portada"  alt="Portada"/> 
+        <div><h1>Hospital Elpidio Torres</h1></div>
+    </section>
     <section className="mvv">
         <div className="mvvBox">
             <h2>Misión</h2>

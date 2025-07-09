@@ -1,3 +1,16 @@
+.menuPortada{
+    position: relative;
+}
+.menuPortada div{
+    position: absolute;
+    bottom: 50px;
+    background-color: aliceblue;
+    color: #1c19f6;
+    width: 50%;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
 .portada{
     width: 100vw;    
 }
@@ -38,8 +51,11 @@ p{
     width: 100%;
     margin-top: 20px;
     }
-    .portada{
+    /* .portada{
     margin-top: 50px;  
+    } */
+    .menuPortada div h1{
+        font-size: 1em;
     }
 }
 @media (max-width: 650px){
@@ -51,5 +67,9 @@ p{
     .portada{
     margin-top: 0px; 
     height: 200px; 
+    }
+    .menuPortada div{
+        width: 70%;
+        bottom: 30px;
     }
 }
