@@ -1,5 +1,5 @@
  .App-logo {
-    height: 12vmin;
+    height: 140%;
     pointer-events: none;
 
 }
@@ -45,6 +45,7 @@
     display: flex;
     align-items: center;
     padding: 16px;
+    padding-left: 0;
     background: #f37805;
     /* position: relative; */
     height: 40px;
